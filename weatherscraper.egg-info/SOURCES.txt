@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.py
+weatherscraper.egg-info/PKG-INFO
+weatherscraper.egg-info/SOURCES.txt
+weatherscraper.egg-info/dependency_links.txt
+weatherscraper.egg-info/requires.txt
+weatherscraper.egg-info/top_level.txt
