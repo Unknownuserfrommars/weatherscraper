@@ -1,6 +1,9 @@
 # Weather Scraping App
 A simple Python application that scrapes weather data for various cities around the world. This app retrieves information from **Weather.com**.
-
+[![PyPI - Version](https://img.shields.io/pypi/v/weatherscraper.svg)](https://pypi.org/project/weatherscraper/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/weatherscraper.svg)](https://pypi.org/project/weatherscraper/)
+[![PyPI - License](https://img.shields.io/pypi/l/weatherscraper.svg)](https://pypi.org/project/weatherscraper/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Unknownuserfrommars/weatherscraper.svg)](https://github.com/Unknownuserfrommars/weatherscraper)
 ## Features
 Get current weather data for cities worldwide.
 Supports both Fahrenheit and Celsius for temperature.
