@@ -4,10 +4,11 @@ A simple Python application that scrapes weather data for various cities around 
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/weatherscraper.svg)](https://pypi.org/project/weatherscraper/)
 [![PyPI - License](https://img.shields.io/pypi/l/weatherscraper.svg)](https://pypi.org/project/weatherscraper/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Unknownuserfrommars/weatherscraper.svg)](https://github.com/Unknownuserfrommars/weatherscraper)
+[![Python versions](https://img.shields.io/pypi/pyversions/weatherscraper.svg)](https://pypi.org/project/weatherscraper/)
 ## Features
 Get current weather data for cities worldwide.
 Supports both Fahrenheit and Celsius for temperature.
-Displays additional weather data: description, humidity, and wind speed. **(EDITOR'S NOTE: UNSTABLE, WORKING ON HOW TO FIX)**
+Displays additional weather data: description, humidity, and wind speed. **(EDITOR'S NOTE: MINOR FIX ON IT IN V1.1)**
 ### Cities Supported
 Los Angeles, USA
 San Francisco, USA
