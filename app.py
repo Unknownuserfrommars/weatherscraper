@@ -1,8 +1,7 @@
 from flask import Flask, jsonify, request
-from scraper import get_weather, Cities
+from weather_scraper.scraper import get_weather, Cities
 
 app = Flask(__name__)
-
 
 @app.route('/')
 def home():
@@ -11,7 +10,6 @@ def home():
     <p>Use the /weather endpoint to get weather information.</p>
     <p>Example usage: /weather?city=LosAngeles</p>
     """
-
 
 @app.route('/weather', methods=['GET'])
 def get_weather_data():
@@ -26,7 +24,3 @@ def get_weather_data():
         return jsonify(weather_data)
     else:
         return jsonify({"error": weather_data}), 500
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
